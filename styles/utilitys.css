@@ -7,14 +7,28 @@
     }
 }
 
-.title{
+.title-lg{
     color: var(--gray-600);
     font: var(--title-lg);
 }
 
+.title-md{
+    color: var(--gray-600);
+    font: var(--title-md);
+}
 
-.small{
+.title-sm{
+    color: var(--gray-600);
+    font: var(--title-sm);
+}
+
+
+.text-sm{
     font: var(--text-sm);
     color: var(--gray-400);
 }
 
+.caixas .text-sm{
+    font: var(--text-sm);
+    color: var(--gray-500);
+}

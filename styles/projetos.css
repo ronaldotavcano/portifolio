@@ -1,22 +1,45 @@
 .projetos{
     background-color: var(--gray-200);
+
+    padding: 72px 120px;
+}
+
+.projetos .text{
+    display: grid;
+    place-self: center;
+    text-align: center;
+    gap: 8px;
+    
+    margin-block: 56px 72px;
 }
 
 .projetos .caixas{
+    width: 1040px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    place-self: center;
+    
 }
 
 .projetos .caixas span{
     background-color: var(--gray-300);
+    border-radius: 10px;
     width: 330px;
     height: 280px;
-    
+    padding: 12px;
     
 }
 
 .projetos .caixas img{
     width: 306px;
     height: 156px;
+    border-radius: 10px;
+    
+}
+
+.projetos .caixas h3{
+    margin-block: 24px 8px;
 }
