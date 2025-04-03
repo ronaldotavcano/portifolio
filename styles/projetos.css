@@ -1,0 +1,22 @@
+.projetos{
+    background-color: var(--gray-200);
+}
+
+.projetos .caixas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projetos .caixas span{
+    background-color: var(--gray-300);
+    width: 330px;
+    height: 280px;
+    
+    
+}
+
+.projetos .caixas img{
+    width: 306px;
+    height: 156px;
+}
