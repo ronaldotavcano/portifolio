@@ -1,0 +1,41 @@
+.servicos{
+    background-color: var(--gray-100);
+}
+
+.servicos .text{
+    display: grid;
+    place-self: center;
+    text-align: center;
+    gap: 8px;
+
+} 
+
+.servicos .text .subtitle{
+    margin-top: 88px;
+}
+
+.servicos .text .title-md{
+    margin-bottom: 56px;
+}
+
+.servicos .caixas{
+    width: 855px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    place-self: center;
+    
+    
+}
+
+.servicos .caixas img{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.servicos .caixas span{
+    border: 2px solid var(--gray-200);
+    border-radius: 5px;
+    margin-bottom: 120px;
+    padding: 20px;
+}

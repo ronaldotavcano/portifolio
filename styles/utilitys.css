@@ -32,3 +32,8 @@
     font: var(--text-sm);
     color: var(--gray-500);
 }
+
+.purple{
+    font: var(--subtitle);
+    color: var(--purple);
+}

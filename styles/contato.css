@@ -1,0 +1,59 @@
+.contato{
+    background-image: url(../assets/Background_Contacts.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contato .text{
+    display: grid;
+    place-self: center;
+    text-align: center;
+    gap: 8px;
+} 
+
+.contato .text .purple{
+    margin-top: 120px;
+}
+
+.contato .text .subtitle{
+    margin-bottom: 48px;
+}
+
+.contato .links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+    margin-inline: 40%;
+    
+}
+.contato .links span{
+    background-color: var(--gray-300);
+    width: 350px;
+
+    border-radius: 5px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contato .links p{
+    padding: 23px 52px 23px 60px;
+}
+
+.contato .links .inicio{
+    padding: 20px 12px 20px 20px;
+}
+
+.contato .links .fim{
+    padding: 20px 12px 20px 20px;
+}
+
+.contato .links .ultimo{
+    margin-bottom: 200px;
+}
